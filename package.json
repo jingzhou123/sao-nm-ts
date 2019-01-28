@@ -1,0 +1,51 @@
+{
+  "name": "sao-nm-ts",
+  "version": "1.1.1",
+  "description": "Scaffolding out a typescript module.",
+  "repository": {
+    "url": "saojs/sao-nm-ts",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "xo *.js test/*.js"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "/template/"
+    ]
+  },
+  "author": "jiwang",
+  "license": "MIT",
+  "files": [
+    "saofile.js",
+    "template",
+    "lib"
+  ],
+  "keywords": [
+    "sao",
+    "generator",
+    "sao-generator",
+    "nm",
+    "node-modules",
+    "npm",
+    "package",
+    "ts",
+    "typescript"
+  ],
+  "xo": {
+    "extends": "rem",
+    "envs": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "superb": "^1.3.0"
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^4.0.0",
+    "jest": "^22.4.3",
+    "sao": "^1.0.0",
+    "xo": "^0.20.3"
+  }
+}
